@@ -1,0 +1,36 @@
+{
+  "name": "portrunner",
+  "version": "1.0.0",
+  "description": "Run a function with the first available port",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-difflet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jameswomack/portrunner.git"
+  },
+  "keywords": [
+    "port",
+    "run",
+    "server",
+    "find",
+    "discover",
+    "available",
+    "open"
+  ],
+  "author": "James Womack <james@womack.io> (http://womack.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/portrunner/issues"
+  },
+  "homepage": "https://github.com/jameswomack/portrunner#readme",
+  "dependencies": {
+    "detect-port": "1.0.0"
+  },
+  "devDependencies": {
+    "sinon": "1.17.5",
+    "tap-difflet": "0.6.0",
+    "tape": "4.6.0"
+  }
+}
